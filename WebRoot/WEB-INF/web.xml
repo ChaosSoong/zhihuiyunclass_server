@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>com.hdky.servlet.Login</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Message</servlet-name>
+    <servlet-class>com.hdky.servlet.Message</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Teacher</servlet-name>
+    <servlet-class>com.hdky.servlet.Teacher</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Student</servlet-name>
+    <servlet-class>com.hdky.servlet.Student</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Query</servlet-name>
+    <servlet-class>com.hdky.servlet.Query</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StudentInf</servlet-name>
+    <servlet-class>com.hdky.servlet.StudentInf</servlet-class>
+  </servlet>
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Message</servlet-name>
+    <url-pattern>/Message</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Teacher</servlet-name>
+    <url-pattern>/Teacher</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Student</servlet-name>
+    <url-pattern>/Student</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Query</servlet-name>
+    <url-pattern>/Query</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StudentInf</servlet-name>
+    <url-pattern>/StudentInf</url-pattern>
+  </servlet-mapping>
+  	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
